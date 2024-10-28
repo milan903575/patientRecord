@@ -1,0 +1,21 @@
+{
+    "name": "mkuma/patient-record",
+    "require-dev": {
+        "phpunit/phpunit": "9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mkuma\\PatientRecord\\": "src/"
+        }
+    },
+    "require": {
+        "openai-php/client": "^0.10.1",
+        "symfony/http-client": "^7.1",
+        "nyholm/psr7": "^1.8"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
